@@ -1,0 +1,125 @@
+*{
+   margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* INICIO NAV */
+
+.nav{
+    background-color: #000;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-list a{
+    padding: 20px;
+    text-decoration: none;
+    color: #a4a4a4
+}
+
+.nav-list a:hover{
+    color: #fff;
+}
+
+/* FIM NAV */
+
+/* INICIO MAIN */
+
+.main{
+    width: 100%;
+    background-color: #c8c8c8;
+    height: calc(100vh - 80px);
+    display: flex;
+    background-image: url("../img/programador.png");
+    align-items: center;
+    padding-left: 10%;
+}
+
+.main h1{
+    color: #fff;
+    font-size: 54px;
+}
+.main p{
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(50, 150, 175);
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.call-to-action{
+     cursor: pointer;  
+    background-color: white;
+    border: 0;
+    padding: 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.9s;
+}
+
+.call-to-action:hover{
+   transform: scale(1.1);
+
+}
+/* FIM MAIN */
+
+/* INICIo sobre*/
+
+.sobre{
+
+background-color: #a4a4a4;
+width: 100%;
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 80px;
+padding-bottom: 80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.sobre div{
+
+    max-width: 50%;
+    padding-right: 40px;
+
+}
+.sobre img{
+    max-width: 450px;
+    border-radius: 8px;
+}
+.sobre h2{
+
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+/*fim do sobre*/
+
+/* inicio dos meus projetos*/
+
+.projetos{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 80px 0
+;
+}
+
+
