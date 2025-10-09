@@ -7,6 +7,7 @@
 
 body{
     font-family: "Roboto", sans-serif;
+   
 }
 
 /* INICIO NAV */
@@ -17,6 +18,9 @@ body{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    position: static;
+    top:0;
+    z-index: 9;
 }
 
 .nav-list{
@@ -34,7 +38,9 @@ body{
 .nav-list a:hover{
     color: #fff;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* FIM NAV */
 
 /* INICIO MAIN */
@@ -56,7 +62,7 @@ body{
 .main p{
     font-size: 16px;
     font-style: italic;
-    color: rgb(50, 150, 175);
+    color: rgb(108, 19, 134);
     margin-top: 10px;
     margin-bottom: 35px;
 }
@@ -91,6 +97,9 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 }
+
+
+
 
 .sobre div{
 
@@ -128,7 +137,7 @@ padding: 80px 0
     margin-top: 20px;
 }
 
-projetos p{
+.projetos p{
     margin-bottom: 40px;
     font-style: italic;
 }
@@ -188,13 +197,14 @@ footer{
             background-size: cover;
 
 }
-.sobre{ 
+.sobre {
     flex-direction: column;
-    padding-top: 80%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0;
+    padding: 40px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
 .sobre div{
 
     max-width: 80%;
