@@ -18,9 +18,11 @@ body{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    position: static;
-    top:0;
-    z-index: 9;
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* garante que fique acima de outros elementos */
 }
 
 .nav-list{
