@@ -21,6 +21,11 @@
             </li>
             <li>
                 <a href="#projetos">Projetos</a>
+               
+            </li>
+            <li>
+                <a href="#contato">contato</a>
+               
             </li>
         </ul>
      </nav>
@@ -29,21 +34,27 @@
      <!-- INICIO MAIN-->
      <section id ="home" class="main"> 
       <div>
-        <h1>em-vindo ao meu portfólio</h1> 
+        <h1>Bem-vindo ao meu portfólio</h1> 
         <p>Este site reúne meus principais projetos e experiências. Sinta-se à vontade para explorar e conhecer meu trabalho.</p>
         <a href="#"><button class="call-to-action">Veja meus projetos</button></a></div>
      </section>
 
-      <section id= "sobre" class="sobre">
-          <div>
-            <h2><b>Sobre mim</b></h2>
+     <section id= "sobre" class="sobre">
+          <div class="sobre-content">
+            <h2 class="sobre-title"><b>Sobre mim</b></h2>
             
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo officiis adipisci quisquam provident reprehenderit facere! Iusto modi eaque reiciendis sint non quasi nostrum distinctio alias? Dolor voluptate possimus laborum nulla.</p>
-            <br><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+            <div class="sobre-card">
+              <p>Sou um programador apaixonado que adora criar soluções inovadoras e dar vida a ideias por meio de código. 
+                Com experiência em tecnologias web modernas, especializo-me em criar aplicativos responsivos e fáceis 
+                de usar que fazem a diferença.</p>
+              
+              <br>
+              
+              <p>Minha jornada na programação foi impulsionada pela curiosidade e por um desejo constante de aprender. 
+                Acredito em escrever código limpo e sustentável e sempre me esforço para me manter atualizado com 
+                as tecnologias e práticas recomendadas mais recentes.</p>
+            </div>
           </div>
-          <img src="img/foto-pc.png" alt="eu estou programamndo">
-
       </section>
       <!--fim do sobre-->
       <!-- inicio de projetos-->
@@ -63,10 +74,60 @@
                  <img src="img/projeto2.png" alt = "meu projeto 02">
                  <img src="img/projeto3.png" alt = "meu projeto 03">
           </div>
-                <a href="#"><button class="action">Fale comigo!!☝️</button></a>
+          
       </section>
+    
+    <section id="contato" class="contact-section">
+    <div class="contact-container">
+        <h2 class="contact-title">Entre em <span class="highlight-contact">contato</span></h2>
+        
+        <form class="contact-form" action="LINK_REAL_DO_FORM_QUE_VOCÊ_PEGOU_NO_FORMSPREE" method="POST">
+    
+    <div class="form-group">
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+    </div>
+    
+    <div class="form-group">
+        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+    </div>
+    
+    <div class="form-group">
+        <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" rows="6" required></textarea>
+    </div>
+    
+    <button type="submit" class="submit-button">
+        Enviar mensagem
+    </button>
+
+
+        </form>
+
+        <div class="social-links">
+            <a href="myllena.heloisa.milet@gmail.com" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+            
+            <a href="#" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/myllena-milet-a48047264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="https://www.instagram.com/myhzinh?utm_source=qr&igsh=MTNxMWhpcDY1azhlMg==" target="_blank" class="social-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+    </svg>
+</a>
+
+        </div>
+    </div>
+</section>
+
       <footer>  
-        <p>Desenvolvido por Myllena Milet - todos os direitos reservados.💖</p>
+        <p>Desenvolvido por Myllena Milet - todos os direitos reservados.© 2025 💖</p>
     </footer>
 </body>
 </html>
