@@ -63,7 +63,6 @@ meus-projetos/
 ├── js/
 │   └── js.js          # Scripts JavaScript
 ├── img/               # Imagens do portfólio
-├── assets/            # Recursos adicionais
 └── README.md          # Este arquivo
 ```
 
